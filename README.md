@@ -1,4 +1,6 @@
-# vTeX
+<p align="center">
+  <img width="475.2" height="220" src="vtex.svg" alt="vTeX">
+</p>
 
 ## Tiny pandoc and TeX for CI
 
