@@ -17,7 +17,7 @@ rm TinyTeX.tar.gz
 
 # install requred 
 cd $TEXDIR/bin/*/
-./tlmgr install latex-bin tools kvoptions etoolbox pdftexcmds infwarerr everysel parskip hyperref geometry sectsty ragged2e enumitem fontawesome markdown fontspec paralist amsmath amsfonts csvsimple fancyvrb pgf
+./tlmgr install latex-bin tools kvoptions etoolbox pdftexcmds infwarerr everysel parskip hyperref geometry sectsty ragged2e enumitem fontawesome markdown fontspec paralist amsmath amsfonts csvsimple fancyvrb pgf gobble epstopdf-pkg
 
 # create symlink for pdflatex
 ln -s pdftex pdflatex
