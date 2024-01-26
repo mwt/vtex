@@ -1,5 +1,5 @@
 #!/bin/bash
-TINYTEX_VERSION="2023.03"
+TINYTEX_VERSION="2024.01"
 TEXDIR="vtex"
 
 TINYTEX_URL="https://github.com/rstudio/tinytex-releases/releases/download/v$TINYTEX_VERSION/TinyTeX-0-v$TINYTEX_VERSION"
@@ -13,6 +13,9 @@ mv ".TinyTeX" "$TEXDIR"
 cd $TEXDIR/bin/*/
 export PATH="$(pwd):$PATH"
 cd -
+
+# update tlmgr
+tlmgr update --self
 
 # install requred
 tlmgr install latex-bin tools kvoptions etoolbox pdftexcmds infwarerr everysel parskip hyperref geometry sectsty ragged2e enumitem fontawesome markdown fontspec paralist amsmath amsfonts csvsimple fancyvrb pgf gobble epstopdf-pkg
