@@ -1,5 +1,5 @@
 #!/bin/bash
-TINYTEX_VERSION="2023.03"
+TINYTEX_VERSION="2024.11"
 TEXDIR="vtex"
 
 TINYTEX_URL="https://github.com/rstudio/tinytex-releases/releases/download/v$TINYTEX_VERSION/TinyTeX-0-v$TINYTEX_VERSION"
